@@ -29,6 +29,7 @@ h3 {
 }
 p {
   font-weight: normal;
+  line-height: normal;
 }
 
 ul, {
@@ -37,7 +38,7 @@ ul, {
 }
 
 li, {
-  float: right;
+  float: left;
   padding: 30px;
 
 }
