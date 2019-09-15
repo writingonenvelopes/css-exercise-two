@@ -1,16 +1,16 @@
-article, body, li, nav, ul,
-.container, .large-pic, .left, .logo,
-.medium-pic, .right,
-{
-  font-size: 100%;
-	font-family: times, serif;
-}
-
 body {
   background-color: #000000;
   color: #FFFFFF;
   line-height: 1;
 }
+
+article, body, figcaption, h1, h3, li, nav, p, ul,
+.container, .large-pic, .left, .logo,
+.medium-pic, .right,
+{
+  font-size: 16px;
+	font-family: times, serif;
+  }
 
 nav {
   background-color: rgba(0,0,0,.5);
@@ -18,31 +18,64 @@ nav {
   position: fixed;
   width: 100%;
 }
- a{
+ a: hover {
    text-decoration: none;
+   text-decoration-color: white;
+
+ }
+ figcaption{
+   font-weight: lighter;
+   font-size: 14px;
+   text-align: left;
+   line-height: normal;
+   margin-right: 5px;
+   margin-left: 10px;
+   margin-bottom:5px;
  }
 h1 {
   font-weight: normal;
+  font-size: 24px;
+  text-align: left;
+  line-height: normal;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 5px;
   }
+
 h3 {
   font-weight: lighter;
+  font-size: 14px;
+  text-align: left;
+  line-height: normal;
+  margin-right: 5px;
+  margin-left: 10px;
+  margin-bottom:5px;
 }
+
 p {
   font-weight: normal;
+  font-size: 16px;
+  line-height: normal;
+  margin-top: 10px;
+  margin-left:10px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  text-align: left;
   line-height: normal;
 }
 
-ul, {
+ul {
   list-style-type: none;
   float: right;
 }
 
-li, {
+li {
   float: left;
   padding: 30px;
 
 }
-article, {
+article {
   padding-top: 100px;
 }
 
