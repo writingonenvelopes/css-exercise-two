@@ -18,9 +18,9 @@ nav {
   position: fixed;
   width: 100%;
 }
- a: hover {
+ a {
    text-decoration: none;
-   text-decoration-color: white;
+
 
  }
  figcaption{
